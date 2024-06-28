@@ -1,5 +1,6 @@
 git init -> inititalize your local git repo 
 git add <filename> -> to track the changes and send a message that is it is ready to commit and to send that file into staging area
+git add . -> to add all the modified and unstaged files into mstaging area
 git commit -m "message" -> to commit the changes 
 git clone -> to clone  a global repointo local system
 git status -> to find the status of chanages or commits in the current directory
@@ -8,3 +9,6 @@ git branch <name> -> create a branch using that name
 git branch -M <name>->set the named branch as to the primary branch
 git checkout <name> -> switch to that pre existing branch 
 git checkout -b <name> ->switch to abranch which did not exist before so it create and switch
+git config --global user.name "<username>"
+git config --global user.email "<user email>"
+git config --list ->list all the config of the repo
